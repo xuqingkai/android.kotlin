@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ivTopBack" type="id"/>
+    <item name="ivTopTitle" type="id"/>
+
+    <item name="image_placeholder" type="mipmap"/>
+</resources>

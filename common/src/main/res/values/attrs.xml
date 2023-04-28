@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRoundRectImageView">
+        <attr name="borderRadius" format="string" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MyRadioButton">
+        <attr name="rbWidth" format="dimension"/>
+        <attr name="rbHeight" format="dimension"/>
+    </declare-styleable>
+
+</resources>
