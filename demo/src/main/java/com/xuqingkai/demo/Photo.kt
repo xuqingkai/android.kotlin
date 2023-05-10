@@ -1,9 +1,10 @@
-package com.xuqingkai.common
+package com.xuqingkai.demo
 
 import android.app.Activity
 import android.content.Context
 import androidx.fragment.app.Fragment
 import com.donkingliang.imageselector.utils.ImageSelector
+import com.xuqingkai.common.Config
 
 class Photo {
     private lateinit var mContext : Context;

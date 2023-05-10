@@ -40,38 +40,20 @@ dependencies {
     api rootProject.ext.dependencies["junit"]
     api rootProject.ext.dependencies["ext-junit"]
     api rootProject.ext.dependencies["espresso-core"]
-
-    api rootProject.ext.dependencies["flexbox"]
     api rootProject.ext.dependencies["multidex"]
-    api rootProject.ext.dependencies["retrofit2"]
+
     api rootProject.ext.dependencies["utilcodex"]
-    api rootProject.ext.dependencies["xutil-core"]
-    api rootProject.ext.dependencies["smart-refresh-layout"]
-    api rootProject.ext.dependencies["smart-refresh-header"]
-
-    api rootProject.ext.dependencies["ToastUtils"]
-    api rootProject.ext.dependencies["glide"]
-    api rootProject.ext.dependencies["glide-transformations"]
-    api rootProject.ext.dependencies["picasso"]
-    api rootProject.ext.dependencies["picasso-transformations"]
-
     api rootProject.ext.dependencies["XXPermissions"]
-    api rootProject.ext.dependencies["ImageSelector"]
-    api rootProject.ext.dependencies["zhihu-matisse"]
-    api rootProject.ext.dependencies["StfalconImageViewer"]
-
-    api rootProject.ext.dependencies["xutil-core"]
-
+    api rootProject.ext.dependencies["okhttp"]
+    api rootProject.ext.dependencies["EasyHttp"]
+    api rootProject.ext.dependencies["Toaster"]
     api rootProject.ext.dependencies["DialogX"]
     api rootProject.ext.dependencies["DialogXIOSStyle"]
     api rootProject.ext.dependencies["DialogXDatePicker"]
     api rootProject.ext.dependencies["DialogXCustomWheelPicker"]
-    api rootProject.ext.dependencies["tencent-mmkv"]
-    api rootProject.ext.dependencies["wechat-sdk-android"]
 
-    api rootProject.ext.dependencies["jiguang-jcore"]
-    api rootProject.ext.dependencies["jiguang-jverification"]
+    api rootProject.ext.dependencies["TitleBar"]
+    api rootProject.ext.dependencies["smart-refresh-layout"]
+    api rootProject.ext.dependencies["smart-refresh-header"]
 
-    api rootProject.ext.dependencies["tencent-map-geolocation"]
-    api rootProject.ext.dependencies["tencent-map-vector"]
 }

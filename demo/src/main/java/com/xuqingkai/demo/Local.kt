@@ -1,4 +1,4 @@
-package com.xuqingkai.common
+package com.xuqingkai.demo
 
 import android.content.Context
 import com.tencent.mmkv.MMKV
@@ -66,32 +66,32 @@ open class Local {
     fun remove(key: String){
         mMMKV.remove(key);
     }
-    fun setInt(key: String, value: Int): Local{
+    fun setInt(key: String, value: Int): Local {
         mMMKV.putInt(key, value);
         return this;
     }
     fun getInt(key: String): Int{
         return mMMKV.getInt(key, 0);
     }
-    fun setFloat(key: String, value: Float): Local{
+    fun setFloat(key: String, value: Float): Local {
         mMMKV.putFloat(key, value);
         return this;
     }
     fun getFloat(key: String): Float{
         return mMMKV.getFloat(key, 0F);
     }
-    fun setString(key: String, value: String): Local{
+    fun setString(key: String, value: String): Local {
         mMMKV.putString(key, value);
         return this;
     }
     fun getString(key: String): String?{
         return mMMKV.getString(key, null);
     }
-    fun addJSONArray(key: String, value: String): Local{
+    fun addJSONArray(key: String, value: String): Local {
         mMMKV.putString(key, value.toString());
         return this;
     }
-    fun setJSONArray(key: String, value: JSONArray): Local{
+    fun setJSONArray(key: String, value: JSONArray): Local {
         mMMKV.putString(key, value.toString());
         return this;
     }
@@ -99,11 +99,11 @@ open class Local {
         var jsonArray = mMMKV.getString(key, null) ?: "[]";
         return JSONArray(jsonArray);
     }
-    fun addJSONObject(key: String, value: JSONObject): Local{
+    fun addJSONObject(key: String, value: JSONObject): Local {
         mMMKV.putString(key, value.toString());
         return this;
     }
-    fun setJSONObject(key: String, value: JSONObject): Local{
+    fun setJSONObject(key: String, value: JSONObject): Local {
         mMMKV.putString(key, value.toString());
         return this;
     }

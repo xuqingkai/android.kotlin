@@ -1,4 +1,4 @@
-package com.xuqingkai.common
+package com.xuqingkai.demo
 
 import android.content.Context
 import android.graphics.*
@@ -7,7 +7,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool
 import com.squareup.picasso.Picasso
-import com.stfalcon.imageviewer.StfalconImageViewer
+import com.xuqingkai.common.Config
 import jp.wasabeef.glide.transformations.BitmapTransformation as GlideBitmapTransformation
 import java.security.MessageDigest
 import com.squareup.picasso.Transformation as PicassoTransformation
@@ -25,20 +25,20 @@ class Image {
         mResID = Config.IMAGE_PLACE_HOLDER
     }
     private var Url : String? = null;
-    fun url(imgUrl: String?): Image{
+    fun url(imgUrl: String?): Image {
         Url = imgUrl
         return this;
     }
-    fun resize(width: Int,height: Int): Image{
+    fun resize(width: Int,height: Int): Image {
         mWidth = width
         mHeight = height
         return this;
     }
-    fun placeHolder(resID: Int): Image{
+    fun placeHolder(resID: Int): Image {
         mResID = resID
         return this;
     }
-    fun circle(radius: Any="50%"):Image{
+    fun circle(radius: Any="50%"): Image {
         mRadius = radius
         return this;
     }

@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdk rootProject.ext.compileSdk
     defaultConfig {
-        applicationId "com.xuqingkai.app"
+        applicationId "com.xuqingkai.demo"
         versionCode 1
         versionName "1.0.0"
         manifestPlaceholders = [
@@ -64,8 +64,27 @@ android {
     }
 }
 
+
+
 dependencies {
     api fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     api project(':common')
-    api rootProject.ext.dependencies["TitleBar"]
+
+    api rootProject.ext.dependencies["glide"]
+    api rootProject.ext.dependencies["glide-transformations"]
+    api rootProject.ext.dependencies["picasso"]
+    api rootProject.ext.dependencies["picasso-transformations"]
+
+    api rootProject.ext.dependencies["ImageSelector"]
+    api rootProject.ext.dependencies["zhihu-matisse"]
+    api rootProject.ext.dependencies["StfalconImageViewer"]
+
+    api rootProject.ext.dependencies["tencent-mmkv"]
+    api rootProject.ext.dependencies["wechat-sdk-android"]
+
+    api rootProject.ext.dependencies["jiguang-jcore"]
+    api rootProject.ext.dependencies["jiguang-jverification"]
+
+    api rootProject.ext.dependencies["tencent-map-geolocation"]
+    api rootProject.ext.dependencies["tencent-map-vector"]
 }

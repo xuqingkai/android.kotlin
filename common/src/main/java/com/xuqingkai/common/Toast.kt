@@ -1,14 +1,12 @@
 package com.xuqingkai.common
 
 import android.content.Context
-import com.hjq.toast.ToastUtils
+import com.hjq.toast.Toaster
 
 class Toast {
     private val mContext: Context? = null;
     constructor(){}
-    constructor(context: Context)
-
     fun show(text: Any?){
-        ToastUtils.show(text);
+        Toaster.show(text);
     }
 }

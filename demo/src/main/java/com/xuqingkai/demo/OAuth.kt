@@ -1,4 +1,4 @@
-package com.xuqingkai.common
+package com.xuqingkai.demo
 
 import android.content.Context
 import com.xuqingkai.common.Config.Companion.WEIXIN_LOGIN_APPID
@@ -11,7 +11,6 @@ import com.tencent.mm.opensdk.modelmsg.SendMessageToWX
 import com.tencent.mm.opensdk.modelmsg.WXMediaMessage
 import com.tencent.mm.opensdk.modelmsg.WXWebpageObject
 import com.tencent.mm.opensdk.openapi.WXAPIFactory
-import com.xuexiang.xutil.display.ImageUtils
 
 
 class OAuth {
@@ -26,11 +25,11 @@ class OAuth {
         mWeixinMinAppAppID = WEIXIN_MINAPP_APPID
         mWeixinMinAppOriginID = WEIXIN_MINAPP_ORIGINID
     }
-    fun weixin(appID:String):OAuth{
+    fun weixin(appID:String): OAuth {
         mWeixinAppID = appID;
         return this;
     }
-    fun weixinMinApp(appID:String, originID:String):OAuth{
+    fun weixinMinApp(appID:String, originID:String): OAuth {
         mWeixinMinAppAppID = appID;
         mWeixinMinAppOriginID = originID;
         return this;
