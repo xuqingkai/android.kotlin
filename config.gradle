@@ -186,6 +186,7 @@ ext {
             //激光推送
             "jiguang-jpush":"cn.jiguang.sdk:jpush:4.8.1",
 
-
+            //蓝牙对接 https://github.com/Jasonchenlijian/FastBle
+            "FastBle":"com.github.Jasonchenlijian:FastBle:2.4.0",
     ]
 }
